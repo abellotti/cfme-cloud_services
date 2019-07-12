@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'cfme/cloud_services/version'
+require 'red_hat/cloud_services/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "cfme-cloud_services"
-  spec.version       = Cfme::CloudServices::VERSION
+  spec.name          = "redhat-cloud_services"
+  spec.version       = RedHat::CloudServices::VERSION
   spec.authors       = ["ManageIQ Authors"]
 
   spec.summary       = "Red Hat Cloud Services plugin for CloudForms"

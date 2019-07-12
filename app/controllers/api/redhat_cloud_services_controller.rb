@@ -1,5 +1,5 @@
 module Api
-  class CfmeCloudServicesController < BaseController
+  class RedHatCloudServicesController < BaseController
     def sync_resource(type, id, data)
       $log.info "XXXXXX - #{type}, #{id}, #{data}"
     end

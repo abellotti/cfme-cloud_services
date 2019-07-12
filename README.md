@@ -1,4 +1,4 @@
-# Cfme::CloudServices
+# RedHat::CloudServices
 
 [![Gem Version](https://badge.fury.io/rb/cfme-cloud_services.svg)](http://badge.fury.io/rb/cfme-cloud_services)
 [![Build Status](https://travis-ci.org/RedHatCloudForms/cfme-cloud_services.svg?branch=master)](https://travis-ci.org/RedHatCloudForms/cfme-cloud_services)

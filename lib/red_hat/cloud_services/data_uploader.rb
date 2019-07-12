@@ -1,4 +1,4 @@
-class Cfme::CloudServices::DataUploader
+class RedHat::CloudServices::DataUploader
   include Vmdb::Logging
 
   def self.upload(path)

@@ -1,7 +1,7 @@
-module Cfme
+module RedHat
   module CloudServices
     class Engine < ::Rails::Engine
-      isolate_namespace Cfme::CloudServices
+      isolate_namespace RedHat::CloudServices
 
       config.autoload_paths << root.join('lib').to_s
 

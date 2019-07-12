@@ -1,7 +1,7 @@
 require "json"
 require "tempfile"
 
-class Cfme::CloudServices::DataPackager
+class RedHat::CloudServices::DataPackager
   def self.package(payload)
     file = Tempfile.new(["cfme_inventory", ".tar.gz"])
     file.binmode

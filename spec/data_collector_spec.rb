@@ -1,4 +1,4 @@
-RSpec.describe Cfme::CloudServices::DataCollector do
+RSpec.describe RedHat::CloudServices::DataCollector do
   let(:parsed_manifest) do
     {
       "cfme_version" => "5.11.0.0",

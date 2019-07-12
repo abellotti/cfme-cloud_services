@@ -1,4 +1,4 @@
-class Cfme::CloudServices::DataCollector
+class RedHat::CloudServices::DataCollector
   def self.collect(manifest, targets)
     payload = Array(targets).map { |target| new(manifest, target).collect }
     block_given? ? yield(payload) : payload

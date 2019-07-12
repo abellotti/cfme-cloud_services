@@ -1,4 +1,4 @@
-# Declare your gem's dependencies in cfme-cloud_services.gemspec.
+# Declare your gem's dependencies in redhat-cloud_services.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec

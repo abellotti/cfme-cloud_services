@@ -1,4 +1,4 @@
-RSpec.describe Cfme::CloudServices::DataPackager do
+RSpec.describe RedHat::CloudServices::DataPackager do
   describe "#package" do
     let(:payload) { [{"data" => "XXX"}] }
 

@@ -1,4 +1,4 @@
-class Cfme::CloudServices::ManifestFetcher
+class RedHat::CloudServices::ManifestFetcher
   def self.fetch
     manifest = JSON.parse(raw_manifest)
     block_given? ? yield(manifest) : manifest

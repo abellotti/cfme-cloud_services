@@ -1,4 +1,4 @@
-RSpec.describe Cfme::CloudServices::DataUploader do
+RSpec.describe RedHat::CloudServices::DataUploader do
   describe "#upload" do
     it "calls insights-client with proper parameters" do
       path = "/tmp/cfme_upload.tar.gz"
