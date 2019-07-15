@@ -1,5 +1,5 @@
 module Api
-  class RedHatCloudServicesController < BaseController
+  class RedhatCloudServiceProvidersController < BaseController
     def sync_resource(type, id, data)
       $log.info "XXXXXX - #{type}, #{id}, #{data}"
     end
